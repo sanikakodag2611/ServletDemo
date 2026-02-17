@@ -33,8 +33,8 @@
       ps.setString(6,pass);
       
       int rowsAffected=ps.executeUpdate();
-      
-            
+      out.println("User add successfully");
+      response.sendRedirect("ViewUser.jsp");     
    %>
 </body>
 </html>

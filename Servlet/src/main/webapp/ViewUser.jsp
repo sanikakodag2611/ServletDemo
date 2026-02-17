@@ -36,8 +36,8 @@
 		   <td><%= rs.getString("lname") %></td>
 		   <td><%= rs.getString("email") %></td>
 		   <td><%= rs.getDate("dob") %></td>
-		   <td><button>Update</button></td>
-		   <td><button>Delete</button></td>
+		   <td><input type="submit" value="Update" onclick="window.location='UpdateUser.jsp?id=<%=rs.getInt("id")%>&fname=<%= rs.getString("fname")%>&lname=<%= rs.getString("lname")%>&email=<%= rs.getString("email")%>&dob=<%= rs.getString("dob")%>'"></td>
+		   <td><input type="submit" value="Delete" onclick="window.location='DeleteUser.jsp?id=<%=rs.getInt("id")%>&fname=<%= rs.getString("fname")%>&lname=<%= rs.getString("lname")%>&email=<%= rs.getString("email")%>&dob=<%= rs.getString("dob")%>'"></td>
 		   <td></td>
 		 </tr>
 	    	 

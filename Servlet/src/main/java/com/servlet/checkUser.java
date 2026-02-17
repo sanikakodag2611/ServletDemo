@@ -8,7 +8,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
  
 @WebServlet("/addUser")
-public class addUser extends HttpServlet {
+public class checkUser extends HttpServlet {
 	 
 	protected void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		
